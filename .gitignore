@@ -3,3 +3,6 @@
 .lsp
 .nrepl-port
 env.edn
+.shadow-cljs/
+.calva
+node_modules
