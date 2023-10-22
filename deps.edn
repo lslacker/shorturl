@@ -1,0 +1,12 @@
+{:path ["src"]
+ :deps {org.clojure/clojure {:mvn/version "1.11.1"}
+        org.clojure/java.jdbc {:mvn/version "0.7.12"}
+        com.mysql/mysql-connector-j {:mvn/version "8.1.0"}
+        com.github.seancorfield/honeysql {:mvn/version "2.4.1078"}
+        javax.servlet/javax.servlet-api {:mvn/version "4.0.1"}
+        ring/ring {:mvn/version "1.10.0"}
+        metosin/reitit {:mvn/version "0.6.0"}
+        metosin/muuntaja {:mvn/version "0.6.8"}}
+ :aliases {:nREPL
+           {:extra-deps
+            {nrepl/nrepl {:mvn/version "1.0.0"}}}}}
